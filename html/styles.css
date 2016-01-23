@@ -1,0 +1,74 @@
+body {
+  font: large Helvetica, Arial, Sans-Serif;
+  line-height: 1.4em;
+  margin: 0;
+}
+div { text-align: center; }
+
+h1 {
+  font-size: 300%;
+  text-align: center;
+}
+h3 {
+  font-size: 150%;
+  text-align: center;
+}
+h4 {
+  font-size: 125%;
+  text-align: center;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+a:hover {
+  color: inherit;
+  background: #CCC;
+}
+a:visited {
+  color: inherit;
+}
+
+div.main {
+  padding-top: 100px;
+}
+div.main span.sub {
+  color: #CCC;
+}
+div.main h1 {
+  padding-bottom: 50px;
+}
+div.main div.images {
+  padding-top: 5px;
+}
+div.main div.images a:hover { background:#FFF; }
+div.main p.last { padding-bottom:50px; }
+div.main .big { font-size:600%; }
+
+div#blog_posts {
+  width: 70%;
+  margin: auto;
+  margin-bottom: 100px;
+  padding-top: 100px;
+}
+div#blog_posts h1 { text-align: left; }
+div#blog_posts span.sub { color: #CCC; }
+div#blog_posts div.images { padding-top: 5px; }
+div#blog_posts div.images a:hover { background: #FFF; }
+div#blog_posts p.last { padding-bottom: 50px; }
+div#blog_posts .big { font-size: 600%; }
+div#blog_posts div.post {
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+  text-align: left;
+  margin: 80px;
+  padding: 5px 25px;
+  background: #EEE;
+  color: #333;
+}
+div#blog_posts div.post p.title {
+  font-weight: bold;
+  font-size: 200%;
+}
